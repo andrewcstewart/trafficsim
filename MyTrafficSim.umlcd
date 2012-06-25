@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/0.9.0" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_p1-AkCIfEeGAoJGVi4aKyQ">
+  <eAnnotations xmi:id="_GiG8YCMGEeGAoJGVi4aKyQ" source="http://yatta-solutions.com/umllab/annotation/dangling-refs">
+    <contents xsi:type="UMLLabProfile:Annotations" xmi:id="_4AzPECMFEeGAoJGVi4aKyQ">
+      <base_Element xsi:type="uml:Property" href="MyTrafficSim.uml#_UNrbISJvEeGAoJGVi4aKyQ"/>
+    </contents>
+  </eAnnotations>
+  <modelElement href="MyTrafficSim.uml#_p0muoCIfEeGAoJGVi4aKyQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rCgsMCIfEeGAoJGVi4aKyQ" sourceAnchor="0.0,55.0" targetAnchor="301.0,229.0" source="_rC5twCIfEeGAoJGVi4aKyQ" target="_rCYJUCIfEeGAoJGVi4aKyQ">
+    <modelElement href="MyTrafficSim.uml#_qv218CIfEeGAoJGVi4aKyQ"/>
+    <nameVisual xmi:id="_rC2DYCIfEeGAoJGVi4aKyQ" text="">
+      <visualProperties xmi:id="_rluG8CIfEeGAoJGVi4aKyQ" position="-27.0,-6.999999999999943"/>
+    </nameVisual>
+    <stereotypes xmi:id="_rC3RgCIfEeGAoJGVi4aKyQ" name="Reference">
+      <modelElement href="MyTrafficSim.uml#_qv5SMCIfEeGAoJGVi4aKyQ"/>
+    </stereotypes>
+    <sourceRole xmi:id="_rC2DYSIfEeGAoJGVi4aKyQ" name="">
+      <modelElement href="MyTrafficSim.uml#_qv218SIfEeGAoJGVi4aKyQ"/>
+      <visualProperties xmi:id="_rlsRwSIfEeGAoJGVi4aKyQ" position="-21.0,10.0"/>
+      <visibility xmi:id="_rC5GsCIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rC4foCIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rC2qcCIfEeGAoJGVi4aKyQ" name="car" navigable="true">
+      <modelElement href="MyTrafficSim.uml#_qscVkCIfEeGAoJGVi4aKyQ"/>
+      <visualProperties xmi:id="_rluG8SIfEeGAoJGVi4aKyQ" position="5.0,-42.0"/>
+      <visibility xmi:id="_rC5GsiIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rC5GsSIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rC8xECIfEeGAoJGVi4aKyQ" sourceAnchor="100.0,0.0" targetAnchor="86.0,0.0" source="_rDrw4iIfEeGAoJGVi4aKyQ" target="_rC5twCIfEeGAoJGVi4aKyQ">
+    <modelElement href="MyTrafficSim.uml#_qv_Y0CIfEeGAoJGVi4aKyQ"/>
+    <nameVisual xmi:id="_rDEF0SIfEeGAoJGVi4aKyQ" text="">
+      <visualProperties xmi:id="_rl3Q4CIfEeGAoJGVi4aKyQ" position="-465.0,-7.000000000000014"/>
+    </nameVisual>
+    <bendpoints xmi:id="_l7fNYCIyEeGAoJGVi4aKyQ" sourceY="-94" targetX="-975" targetY="-192"/>
+    <bendpoints xmi:id="_l7fNYSIyEeGAoJGVi4aKyQ" sourceX="975" sourceY="-94" targetY="-192"/>
+    <stereotypes xmi:id="_rDFT8CIfEeGAoJGVi4aKyQ" name="Reference">
+      <modelElement href="MyTrafficSim.uml#_qwBOACIfEeGAoJGVi4aKyQ"/>
+    </stereotypes>
+    <sourceRole xmi:id="_rDEs4CIfEeGAoJGVi4aKyQ" name="">
+      <modelElement href="MyTrafficSim.uml#_qv_Y0SIfEeGAoJGVi4aKyQ"/>
+      <visualProperties xmi:id="_rl1bsCIfEeGAoJGVi4aKyQ" position="-21.0,-36.0"/>
+      <visibility xmi:id="_rDlDMSIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rDlDMCIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rDEs4SIfEeGAoJGVi4aKyQ" name="cell" navigable="true">
+      <modelElement href="MyTrafficSim.uml#_qsh1ICIfEeGAoJGVi4aKyQ"/>
+      <visualProperties xmi:id="_rl3Q4SIfEeGAoJGVi4aKyQ" position="-44.0,-36.00000000000006"/>
+      <visibility xmi:id="_rDlqQCIfEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_rDlDMiIfEeGAoJGVi4aKyQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rDC3sCIfEeGAoJGVi4aKyQ" sourceAnchor="74.0,306.0" targetAnchor="0.0,166.0" source="_rDrw4iIfEeGAoJGVi4aKyQ" target="_rDrw4iIfEeGAoJGVi4aKyQ">
+    <modelElement href="MyTrafficSim.uml#_qvUqcCIfEeGAoJGVi4aKyQ"/>
+    <nameVisual xmi:id="_rDMosCIfEeGAoJGVi4aKyQ" text="">
+      <visualProperties xmi:id="_rl7iUCIfEeGAoJGVi4aKyQ" position="41.0,-7.0"/>
+    </nameVisual>
+    <bendpoints xmi:id="_l7f0cCIyEeGAoJGVi4aKyQ" sourceY="16" targetX="74" targetY="156"/>
+    <bendpoints xmi:id="_l7f0cSIyEeGAoJGVi4aKyQ" sourceX="-156" sourceY="16" targetX="-82" targetY="156"/>
+    <bendpoints xmi:id="_l7f0ciIyEeGAoJGVi4aKyQ" sourceX="-156" sourceY="-140" targetX="-82"/>
+    <sourceRole xmi:id="_rDMosSIfEeGAoJGVi4aKyQ" name="left" navigable="true">
+      <modelElement href="MyTrafficSim.uml#_qskRYCIfEeGAoJGVi4aKyQ"/>
+      <visualProperties xmi:id="_rl5tICIfEeGAoJGVi4aKyQ" position="-39.0,26.0"/>
+      <visibility xmi:id="_rDnfcSIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rDnfcCIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rDNPwCIfEeGAoJGVi4aKyQ" name="">
+      <modelElement href="MyTrafficSim.uml#_qvVRgCIfEeGAoJGVi4aKyQ"/>
+      <visualProperties xmi:id="_rl7iUSIfEeGAoJGVi4aKyQ" position="-77.0,5.0"/>
+      <visibility xmi:id="_rDoGgSIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rDoGgCIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rDDewCIfEeGAoJGVi4aKyQ" sourceAnchor="87.0,306.0" targetAnchor="0.0,153.0" source="_rDrw4iIfEeGAoJGVi4aKyQ" target="_rDrw4iIfEeGAoJGVi4aKyQ">
+    <modelElement href="MyTrafficSim.uml#_qvV4kCIfEeGAoJGVi4aKyQ"/>
+    <nameVisual xmi:id="_rDNPwSIfEeGAoJGVi4aKyQ" text="">
+      <visualProperties xmi:id="_rl9-kCIfEeGAoJGVi4aKyQ" position="80.0,-7.0"/>
+    </nameVisual>
+    <bendpoints xmi:id="_l7gbgCIyEeGAoJGVi4aKyQ" sourceY="81" targetX="87" targetY="234"/>
+    <bendpoints xmi:id="_l7gbgSIyEeGAoJGVi4aKyQ" sourceX="-221" sourceY="81" targetX="-134" targetY="234"/>
+    <bendpoints xmi:id="_l7gbgiIyEeGAoJGVi4aKyQ" sourceX="-221" sourceY="-153" targetX="-134"/>
+    <sourceRole xmi:id="_rDN20CIfEeGAoJGVi4aKyQ" name="right" navigable="true">
+      <modelElement href="MyTrafficSim.uml#_qslfgCIfEeGAoJGVi4aKyQ"/>
+      <visualProperties xmi:id="_rl8wcCIfEeGAoJGVi4aKyQ" position="-77.0,91.0"/>
+      <visibility xmi:id="_rDotkCIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rDoGgiIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rDN20SIfEeGAoJGVi4aKyQ" name="">
+      <modelElement href="MyTrafficSim.uml#_qvV4kSIfEeGAoJGVi4aKyQ"/>
+      <visualProperties xmi:id="_rl9-kSIfEeGAoJGVi4aKyQ" position="-102.99999999999997,10.0"/>
+      <visibility xmi:id="_rDotkiIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rDotkSIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rDEF0CIfEeGAoJGVi4aKyQ" sourceAnchor="199.0,153.0" targetAnchor="0.0,229.0" source="_rDrw4iIfEeGAoJGVi4aKyQ" target="_rCYJUCIfEeGAoJGVi4aKyQ">
+    <modelElement href="MyTrafficSim.uml#_qvRAECIfEeGAoJGVi4aKyQ"/>
+    <nameVisual xmi:id="_rDOd4CIfEeGAoJGVi4aKyQ" text="">
+      <visualProperties xmi:id="_rl_zwCIfEeGAoJGVi4aKyQ" position="-37.0,-7.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_rDOd4SIfEeGAoJGVi4aKyQ" name="lane" navigable="true">
+      <modelElement href="MyTrafficSim.uml#_qsQvYCIfEeGAoJGVi4aKyQ"/>
+      <visualProperties xmi:id="_rl_MsCIfEeGAoJGVi4aKyQ" position="5.0,-42.0"/>
+      <visibility xmi:id="_rDrJ0CIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rDp7sCIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rDkcICIfEeGAoJGVi4aKyQ" name="">
+      <modelElement href="MyTrafficSim.uml#_qvRnICIfEeGAoJGVi4aKyQ"/>
+      <visualProperties xmi:id="_rmAa0CIfEeGAoJGVi4aKyQ" position="-21.0,10.0"/>
+      <visibility xmi:id="_rDrw4SIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rDrw4CIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rDx3gCIfEeGAoJGVi4aKyQ" sourceAnchor="116.0,109.0" targetAnchor="182.0,0.0" source="_rC5twCIfEeGAoJGVi4aKyQ" target="_rEN8YiIfEeGAoJGVi4aKyQ">
+    <modelElement href="MyTrafficSim.uml#_qv7ucCIfEeGAoJGVi4aKyQ"/>
+    <nameVisual xmi:id="_rEK5ECIfEeGAoJGVi4aKyQ" text="">
+      <visualProperties xmi:id="_rlxKQCIfEeGAoJGVi4aKyQ" position="2.0,3.2258064516129252"/>
+    </nameVisual>
+    <stereotypes xmi:id="_rEMuQCIfEeGAoJGVi4aKyQ" name="Reference">
+      <modelElement href="MyTrafficSim.uml#_qv-xwCIfEeGAoJGVi4aKyQ"/>
+    </stereotypes>
+    <sourceRole xmi:id="_rEMHMCIfEeGAoJGVi4aKyQ" name="">
+      <modelElement href="MyTrafficSim.uml#_qv7ucSIfEeGAoJGVi4aKyQ"/>
+      <visualProperties xmi:id="_rlv8ICIfEeGAoJGVi4aKyQ" position="2.0,30.25"/>
+      <visibility xmi:id="_rENVUSIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rENVUCIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rEMHMSIfEeGAoJGVi4aKyQ" name="light" navigable="true">
+      <modelElement href="MyTrafficSim.uml#_qsfY4CIfEeGAoJGVi4aKyQ"/>
+      <visualProperties xmi:id="_rlxKQSIfEeGAoJGVi4aKyQ" position="2.0,-61.25"/>
+      <visibility xmi:id="_rEN8YSIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rEN8YCIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_rEisgCIfEeGAoJGVi4aKyQ" sourceItem="_rES04CIfEeGAoJGVi4aKyQ" targetItem="_rEmW9iIfEeGAoJGVi4aKyQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rE7uECIfEeGAoJGVi4aKyQ" sourceAnchor="166.0,0.0" targetAnchor="100.0,306.0" source="_rFXL4CIfEeGAoJGVi4aKyQ" target="_rDrw4iIfEeGAoJGVi4aKyQ">
+    <modelElement href="MyTrafficSim.uml#_qwRssCIfEeGAoJGVi4aKyQ"/>
+    <nameVisual xmi:id="_rFGGISIfEeGAoJGVi4aKyQ" text="">
+      <visualProperties xmi:id="_rmF6YCIfEeGAoJGVi4aKyQ" position="-43.0,-4.0"/>
+    </nameVisual>
+    <stereotypes xmi:id="_rFGtMiIfEeGAoJGVi4aKyQ" name="Reference">
+      <modelElement href="MyTrafficSim.uml#_qwTh4CIfEeGAoJGVi4aKyQ"/>
+    </stereotypes>
+    <sourceRole xmi:id="_rFGtMCIfEeGAoJGVi4aKyQ" name="">
+      <modelElement href="MyTrafficSim.uml#_qwRssSIfEeGAoJGVi4aKyQ"/>
+      <visualProperties xmi:id="_rmEsQCIfEeGAoJGVi4aKyQ" position="-21.0,-36.0"/>
+      <visibility xmi:id="_rFRsUSIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rFRsUCIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rFGtMSIfEeGAoJGVi4aKyQ" name="lane" navigable="true">
+      <modelElement href="MyTrafficSim.uml#_qtmMICIfEeGAoJGVi4aKyQ"/>
+      <visualProperties xmi:id="_rmF6YSIfEeGAoJGVi4aKyQ" position="6.0,5.0"/>
+      <visibility xmi:id="_rFRsUyIfEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_rFRsUiIfEeGAoJGVi4aKyQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rFGGICIfEeGAoJGVi4aKyQ" sourceAnchor="98.0,0.0" targetAnchor="166.0,344.0" source="_rEwu8CIfEeGAoJGVi4aKyQ" target="_rFXL4CIfEeGAoJGVi4aKyQ">
+    <modelElement href="MyTrafficSim.uml#_qwOCUCIfEeGAoJGVi4aKyQ"/>
+    <nameVisual xmi:id="_rFPQECIfEeGAoJGVi4aKyQ" text="">
+      <visualProperties xmi:id="_rmDeICIfEeGAoJGVi4aKyQ" position="-43.0,-4.0"/>
+    </nameVisual>
+    <stereotypes xmi:id="_rFRFQSIfEeGAoJGVi4aKyQ" name="Reference">
+      <modelElement href="MyTrafficSim.uml#_qwRFoCIfEeGAoJGVi4aKyQ"/>
+    </stereotypes>
+    <sourceRole xmi:id="_rFQeMCIfEeGAoJGVi4aKyQ" name="">
+      <modelElement href="MyTrafficSim.uml#_qwOCUSIfEeGAoJGVi4aKyQ"/>
+      <visualProperties xmi:id="_rmBo8CIfEeGAoJGVi4aKyQ" position="-21.0,-36.0"/>
+      <visibility xmi:id="_rFUvoSIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rFUvoCIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rFRFQCIfEeGAoJGVi4aKyQ" name="road" navigable="true">
+      <modelElement href="MyTrafficSim.uml#_qtZ-4CIfEeGAoJGVi4aKyQ"/>
+      <visualProperties xmi:id="_rmEFMCIfEeGAoJGVi4aKyQ" position="5.0,5.0"/>
+      <visibility xmi:id="_rFVWsSIfEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_rFVWsCIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rFdSgCIfEeGAoJGVi4aKyQ" sourceAnchor="89.0,0.0" targetAnchor="151.0,496.0" source="_rHDN8CIfEeGAoJGVi4aKyQ" target="_rCYJUCIfEeGAoJGVi4aKyQ">
+    <modelElement href="MyTrafficSim.uml#_qvSOMCIfEeGAoJGVi4aKyQ"/>
+    <nameVisual xmi:id="_rF-28CIfEeGAoJGVi4aKyQ" text="">
+      <visualProperties xmi:id="_rmN2MCIfEeGAoJGVi4aKyQ" position="-11.0,18.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_rF_eACIfEeGAoJGVi4aKyQ" name="destination" navigable="true">
+      <modelElement href="MyTrafficSim.uml#_qsRWcCIfEeGAoJGVi4aKyQ"/>
+      <visualProperties xmi:id="_rmMoECIfEeGAoJGVi4aKyQ" position="-77.0,-36.0"/>
+      <visibility xmi:id="_rG-VcCIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rG9HUCIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rGragCIfEeGAoJGVi4aKyQ" name="">
+      <modelElement href="MyTrafficSim.uml#_qvSOMSIfEeGAoJGVi4aKyQ"/>
+      <visualProperties xmi:id="_rmOdQCIfEeGAoJGVi4aKyQ" position="5.0,5.0"/>
+      <visibility xmi:id="_rHAKoCIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rG_jkCIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rF8asCIfEeGAoJGVi4aKyQ" sourceAnchor="86.0,109.0" targetAnchor="177.0,58.0" source="_rC5twCIfEeGAoJGVi4aKyQ" target="_rHDN8CIfEeGAoJGVi4aKyQ">
+    <modelElement href="MyTrafficSim.uml#_qv5SMSIfEeGAoJGVi4aKyQ"/>
+    <nameVisual xmi:id="_rGsBkCIfEeGAoJGVi4aKyQ" text="">
+      <visualProperties xmi:id="_rl0NkCIfEeGAoJGVi4aKyQ" position="-108.0,-7.0"/>
+    </nameVisual>
+    <bendpoints xmi:id="_l7emUCIyEeGAoJGVi4aKyQ" sourceY="479" targetX="393"/>
+    <stereotypes xmi:id="_rG414CIfEeGAoJGVi4aKyQ" name="Reference">
+      <modelElement href="MyTrafficSim.uml#_qv7HYCIfEeGAoJGVi4aKyQ"/>
+    </stereotypes>
+    <sourceRole xmi:id="_rG3nwCIfEeGAoJGVi4aKyQ" name="">
+      <modelElement href="MyTrafficSim.uml#_qv5SMiIfEeGAoJGVi4aKyQ"/>
+      <visualProperties xmi:id="_rlyYYCIfEeGAoJGVi4aKyQ" position="5.0,5.0"/>
+      <visibility xmi:id="_rHAKoiIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rHAKoSIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rG3nwSIfEeGAoJGVi4aKyQ" name="sink" navigable="true">
+      <modelElement href="MyTrafficSim.uml#_qseKwCIfEeGAoJGVi4aKyQ"/>
+      <visualProperties xmi:id="_rl0NkSIfEeGAoJGVi4aKyQ" position="5.0,-42.0"/>
+      <visibility xmi:id="_rHAxsSIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rHAxsCIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rF9BwCIfEeGAoJGVi4aKyQ" sourceAnchor="332.0,172.0" targetAnchor="0.0,58.0" source="_rFXL4CIfEeGAoJGVi4aKyQ" target="_rHDN8CIfEeGAoJGVi4aKyQ">
+    <modelElement href="MyTrafficSim.uml#_qwTh4SIfEeGAoJGVi4aKyQ"/>
+    <nameVisual xmi:id="_rG414SIfEeGAoJGVi4aKyQ" text="">
+      <visualProperties xmi:id="_rmKy4CIfEeGAoJGVi4aKyQ" position="-53.0,-7.0"/>
+    </nameVisual>
+    <stereotypes xmi:id="_rG7SICIfEeGAoJGVi4aKyQ" name="Reference">
+      <modelElement href="MyTrafficSim.uml#_qwVXECIfEeGAoJGVi4aKyQ"/>
+    </stereotypes>
+    <sourceRole xmi:id="_rG6EACIfEeGAoJGVi4aKyQ" name="">
+      <modelElement href="MyTrafficSim.uml#_qwTh4iIfEeGAoJGVi4aKyQ"/>
+      <visualProperties xmi:id="_rmI9sCIfEeGAoJGVi4aKyQ" position="5.0,-42.0"/>
+      <visibility xmi:id="_rHBYwCIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rHAxsiIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rG6rECIfEeGAoJGVi4aKyQ" name="end" navigable="true">
+      <modelElement href="MyTrafficSim.uml#_qttg4CIfEeGAoJGVi4aKyQ"/>
+      <visualProperties xmi:id="_rmLZ8CIfEeGAoJGVi4aKyQ" position="-41.0,10.0"/>
+      <visibility xmi:id="_rHBYwiIfEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_rHBYwSIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rCYJUCIfEeGAoJGVi4aKyQ" name="Car" associationsIn="_rCgsMCIfEeGAoJGVi4aKyQ _rDEF0CIfEeGAoJGVi4aKyQ _rFdSgCIfEeGAoJGVi4aKyQ">
+    <modelElement href="MyTrafficSim.uml#_qiKYMCIfEeGAoJGVi4aKyQ"/>
+    <visualProperties xmi:id="_rCe3ACIfEeGAoJGVi4aKyQ" position="593.0,48.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rCYJUSIfEeGAoJGVi4aKyQ" label="+"/>
+    <attributes xmi:id="_rCYJUiIfEeGAoJGVi4aKyQ" defaultValue="4" name="velocity">
+      <modelElement href="MyTrafficSim.uml#_qsKBsCIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rCYJUyIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qsLP0CIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rCYJVCIfEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_rCYJVSIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rCYJViIfEeGAoJGVi4aKyQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rCYJVyIfEeGAoJGVi4aKyQ" defaultValue="1" name="acceleration">
+      <modelElement href="MyTrafficSim.uml#_qsL24CIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rCYJWCIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rCYJWSIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rCYJWiIfEeGAoJGVi4aKyQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rCYJWyIfEeGAoJGVi4aKyQ" defaultValue="0" name="pos">
+      <modelElement href="MyTrafficSim.uml#_qsNFACIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rCYJXCIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rCYJXSIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rCYJXiIfEeGAoJGVi4aKyQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rCYJXyIfEeGAoJGVi4aKyQ" defaultValue="false" name="parked">
+      <modelElement href="MyTrafficSim.uml#_qsNsECIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rCYJYCIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qsPhQCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rCYJYSIfEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_rCYJYiIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rCYJYyIfEeGAoJGVi4aKyQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rCYJZCIfEeGAoJGVi4aKyQ" name="lane">
+      <modelElement href="MyTrafficSim.uml#_qsQvYCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rCYJZSIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rCYJZiIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rCYJZyIfEeGAoJGVi4aKyQ" name="Lane">
+        <modelElement href="MyTrafficSim.uml#_qjf08CIfEeGAoJGVi4aKyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rCYJaCIfEeGAoJGVi4aKyQ" name="destination">
+      <modelElement href="MyTrafficSim.uml#_qsRWcCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rCYJaSIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rCYJaiIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rCYJayIfEeGAoJGVi4aKyQ" name="Sink">
+        <modelElement href="MyTrafficSim.uml#_qmnaYCIfEeGAoJGVi4aKyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rCYJbCIfEeGAoJGVi4aKyQ" defaultValue="Logger.getLogger(&quot;CarLogger&quot;)" name="logger" staticAttribute="true">
+      <modelElement href="MyTrafficSim.uml#_qsR9gCIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rCYJbSIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qsTLoCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rCYJbiIfEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_rCYJbyIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rCYJcCIfEeGAoJGVi4aKyQ" name="Logger">
+        <modelElement href="MyTrafficSim.uml#_qp5X4CIfEeGAoJGVi4aKyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_UN0lECJvEeGAoJGVi4aKyQ" defaultValue="0" name="counter" staticAttribute="true">
+      <modelElement href="MyTrafficSim.uml#_UNqNACJvEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_UN0lESJvEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_UNrbICJvEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_UN0lEiJvEeGAoJGVi4aKyQ" label="~"/>
+      <cardinality xmi:id="_UN0lEyJvEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_UN0lFCJvEeGAoJGVi4aKyQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_UN0lFSJvEeGAoJGVi4aKyQ" name="index">
+      <modelElement href="MyTrafficSim.uml#_UNrbISJvEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_UN0lFiJvEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_UNsCMCJvEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4CIr0CMFEeGAoJGVi4aKyQ" modelElement="_4AzPECMFEeGAoJGVi4aKyQ" name="Annotations"/>
+      <visibility xmi:id="_UN0lFyJvEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_UN0lGCJvEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_UN0lGSJvEeGAoJGVi4aKyQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rCYJcSIfEeGAoJGVi4aKyQ" name="Car">
+      <modelElement href="MyTrafficSim.uml#_qifIUCIfEeGAoJGVi4aKyQ"/>
+      <keywords xmi:id="_rCYJciIfEeGAoJGVi4aKyQ" keyword="create"/>
+      <visibility xmi:id="_rCYJdCIfEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_rCYJdSIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qio5UCIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rCYJdiIfEeGAoJGVi4aKyQ" name="Car">
+          <modelElement href="MyTrafficSim.uml#_qiKYMCIfEeGAoJGVi4aKyQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rCYwYCIfEeGAoJGVi4aKyQ" name="Car">
+      <modelElement href="MyTrafficSim.uml#_qiqHcCIfEeGAoJGVi4aKyQ"/>
+      <keywords xmi:id="_rCYwYSIfEeGAoJGVi4aKyQ" keyword="create"/>
+      <visibility xmi:id="_rCYwYiIfEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_rCYwYyIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qirVkCIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rCYwZCIfEeGAoJGVi4aKyQ" name="Car">
+          <modelElement href="MyTrafficSim.uml#_qiKYMCIfEeGAoJGVi4aKyQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rCYwZSIfEeGAoJGVi4aKyQ" name="parked">
+        <modelElement href="MyTrafficSim.uml#_qiqHcSIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rCYwZiIfEeGAoJGVi4aKyQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rCYwZyIfEeGAoJGVi4aKyQ" name="setSpeed">
+      <modelElement href="MyTrafficSim.uml#_qisjsCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rCYwaCIfEeGAoJGVi4aKyQ" label="+"/>
+      <parameters xmi:id="_rCYwaSIfEeGAoJGVi4aKyQ" name="value">
+        <modelElement href="MyTrafficSim.uml#_qisjsSIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rCYwaiIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rCYwayIfEeGAoJGVi4aKyQ" name="getSpeed">
+      <modelElement href="MyTrafficSim.uml#_qitx0CIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rCYwbCIfEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_rCYwbSIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qiuY4CIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rCYwbiIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rCYwbyIfEeGAoJGVi4aKyQ" name="setPos">
+      <modelElement href="MyTrafficSim.uml#_qivnACIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rCYwcCIfEeGAoJGVi4aKyQ" label="+"/>
+      <parameters xmi:id="_rCYwcSIfEeGAoJGVi4aKyQ" name="pos">
+        <modelElement href="MyTrafficSim.uml#_qivnASIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rCYwciIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rCYwcyIfEeGAoJGVi4aKyQ" name="decide">
+      <modelElement href="MyTrafficSim.uml#_qiwOECIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rCYwdCIfEeGAoJGVi4aKyQ" label="+"/>
+    </operations>
+    <operations xmi:id="_rCYwdSIfEeGAoJGVi4aKyQ" name="done">
+      <modelElement href="MyTrafficSim.uml#_qiw1ICIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rCYwdiIfEeGAoJGVi4aKyQ" label="-"/>
+    </operations>
+    <operations xmi:id="_rCYwdyIfEeGAoJGVi4aKyQ" name="applyBreak">
+      <modelElement href="MyTrafficSim.uml#_qiyDQCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rCYweCIfEeGAoJGVi4aKyQ" label="-"/>
+    </operations>
+    <operations xmi:id="_rCYweSIfEeGAoJGVi4aKyQ" name="speedUp">
+      <modelElement href="MyTrafficSim.uml#_qizRYCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rCYweiIfEeGAoJGVi4aKyQ" label="-"/>
+    </operations>
+    <operations xmi:id="_rCYweyIfEeGAoJGVi4aKyQ" name="shiftRight">
+      <modelElement href="MyTrafficSim.uml#_qi0fgCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rCYwfCIfEeGAoJGVi4aKyQ" label="-"/>
+    </operations>
+    <operations xmi:id="_rCYwfSIfEeGAoJGVi4aKyQ" name="rightClear">
+      <modelElement href="MyTrafficSim.uml#_qi2UsCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rCYwfiIfEeGAoJGVi4aKyQ" label="-"/>
+      <outParameters xmi:id="_rCYwfyIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qi27wCIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rCYwgCIfEeGAoJGVi4aKyQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rCYwgSIfEeGAoJGVi4aKyQ" name="shiftLeft">
+      <modelElement href="MyTrafficSim.uml#_qi3i0CIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rCYwgiIfEeGAoJGVi4aKyQ" label="-"/>
+    </operations>
+    <operations xmi:id="_rCYwgyIfEeGAoJGVi4aKyQ" name="leftClear">
+      <modelElement href="MyTrafficSim.uml#_qi4J4CIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rCYwhCIfEeGAoJGVi4aKyQ" label="-"/>
+      <outParameters xmi:id="_rCYwhSIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qi4w8CIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rCYwhiIfEeGAoJGVi4aKyQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rCYwhyIfEeGAoJGVi4aKyQ" name="drive">
+      <modelElement href="MyTrafficSim.uml#_qi5YACIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rCYwiCIfEeGAoJGVi4aKyQ" label="-"/>
+    </operations>
+    <operations xmi:id="_rCYwiSIfEeGAoJGVi4aKyQ" name="forwardClear">
+      <modelElement href="MyTrafficSim.uml#_qi5_ECIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rCYwiiIfEeGAoJGVi4aKyQ" label="-"/>
+      <outParameters xmi:id="_rCYwiyIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qi6mICIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rCYwjCIfEeGAoJGVi4aKyQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rCYwjSIfEeGAoJGVi4aKyQ" name="atDestination">
+      <modelElement href="MyTrafficSim.uml#_qi9CYCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rCYwjiIfEeGAoJGVi4aKyQ" label="-"/>
+      <outParameters xmi:id="_rCYwjyIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qi9pcCIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rCYwkCIfEeGAoJGVi4aKyQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rCYwkSIfEeGAoJGVi4aKyQ" name="destinationBound">
+      <modelElement href="MyTrafficSim.uml#_qpPQkCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rCYwkiIfEeGAoJGVi4aKyQ" label="-"/>
+      <outParameters xmi:id="_rCYwkyIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qpQesCIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rCYwlCIfEeGAoJGVi4aKyQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rCYwlSIfEeGAoJGVi4aKyQ" name="l">
+        <modelElement href="MyTrafficSim.uml#_qpP3oCIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rCYwliIfEeGAoJGVi4aKyQ" name="Lane">
+          <modelElement href="MyTrafficSim.uml#_qjf08CIfEeGAoJGVi4aKyQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1Gl_QCIqEeGAoJGVi4aKyQ" name="slowDown">
+      <modelElement href="MyTrafficSim.uml#_1GUScCIqEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_1Gl_QSIqEeGAoJGVi4aKyQ" label="-"/>
+    </operations>
+    <operations xmi:id="_I_hcECIsEeGAoJGVi4aKyQ" name="nearDestination">
+      <modelElement href="MyTrafficSim.uml#_I_SLgCIsEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_I_hcESIsEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_I_hcEiIsEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_I_XrECIsEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_I_hcEyIsEeGAoJGVi4aKyQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_r_pcQCMDEeGAoJGVi4aKyQ" name="movePos">
+      <modelElement href="MyTrafficSim.uml#_r_g5YCMDEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_r_pcQSMDEeGAoJGVi4aKyQ" label="+"/>
+      <parameters xmi:id="_r_pcQiMDEeGAoJGVi4aKyQ" name="pos">
+        <modelElement href="MyTrafficSim.uml#_r_g5YSMDEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_r_pcQyMDEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rC5twCIfEeGAoJGVi4aKyQ" name="Cell" associationsIn="_rC8xECIfEeGAoJGVi4aKyQ" associationsOut="_rCgsMCIfEeGAoJGVi4aKyQ _rDx3gCIfEeGAoJGVi4aKyQ _rF8asCIfEeGAoJGVi4aKyQ">
+    <modelElement href="MyTrafficSim.uml#_qjRLcCIfEeGAoJGVi4aKyQ"/>
+    <visualProperties xmi:id="_rC6U0CIfEeGAoJGVi4aKyQ" position="1139.0,222.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rC5twSIfEeGAoJGVi4aKyQ" label="+"/>
+    <attributes xmi:id="_rC5twiIfEeGAoJGVi4aKyQ" defaultValue="null" name="car">
+      <modelElement href="MyTrafficSim.uml#_qscVkCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rC5twyIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rC5txCIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rC5txSIfEeGAoJGVi4aKyQ" name="Car">
+        <modelElement href="MyTrafficSim.uml#_qiKYMCIfEeGAoJGVi4aKyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rC5txiIfEeGAoJGVi4aKyQ" defaultValue="null" name="sink">
+      <modelElement href="MyTrafficSim.uml#_qseKwCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rC5txyIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rC5tyCIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rC5tySIfEeGAoJGVi4aKyQ" name="Sink">
+        <modelElement href="MyTrafficSim.uml#_qmnaYCIfEeGAoJGVi4aKyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rC5tyiIfEeGAoJGVi4aKyQ" defaultValue="null" name="light">
+      <modelElement href="MyTrafficSim.uml#_qsfY4CIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rC5tyyIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rC5tzCIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rC5tzSIfEeGAoJGVi4aKyQ" name="Light">
+        <modelElement href="MyTrafficSim.uml#_qkUUUCIfEeGAoJGVi4aKyQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rC5tziIfEeGAoJGVi4aKyQ" name="Cell">
+      <modelElement href="MyTrafficSim.uml#_qjVc4CIfEeGAoJGVi4aKyQ"/>
+      <keywords xmi:id="_rC5tzyIfEeGAoJGVi4aKyQ" keyword="create"/>
+      <visibility xmi:id="_rC5t0CIfEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_rC5t0SIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qjWrACIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rC5t0iIfEeGAoJGVi4aKyQ" name="Cell">
+          <modelElement href="MyTrafficSim.uml#_qjRLcCIfEeGAoJGVi4aKyQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_CLBDYCIhEeGAoJGVi4aKyQ" name="hasCar">
+      <modelElement href="MyTrafficSim.uml#_CK5HkCIhEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_CLBqcCIhEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_CLBqcSIhEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_CK68wCIhEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_CLBqciIhEeGAoJGVi4aKyQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_CLDfoCIhEeGAoJGVi4aKyQ" name="hasLight">
+      <modelElement href="MyTrafficSim.uml#_CK5uoCIhEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_CLDfoSIhEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_CLDfoiIhEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_CK7j0CIhEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_CLDfoyIhEeGAoJGVi4aKyQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_CLK0YCIhEeGAoJGVi4aKyQ" name="hasExit">
+      <modelElement href="MyTrafficSim.uml#_CK5uoSIhEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_CLK0YSIhEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_CLK0YiIhEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_CK7j0SIhEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_CLK0YyIhEeGAoJGVi4aKyQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rDrw4iIfEeGAoJGVi4aKyQ" name="Lane" associationsIn="_rDC3sCIfEeGAoJGVi4aKyQ _rDDewCIfEeGAoJGVi4aKyQ _rE7uECIfEeGAoJGVi4aKyQ" associationsOut="_rC8xECIfEeGAoJGVi4aKyQ _rDC3sCIfEeGAoJGVi4aKyQ _rDDewCIfEeGAoJGVi4aKyQ _rDEF0CIfEeGAoJGVi4aKyQ">
+    <modelElement href="MyTrafficSim.uml#_qjf08CIfEeGAoJGVi4aKyQ"/>
+    <visualProperties xmi:id="_rDwCUCIfEeGAoJGVi4aKyQ" position="150.0,124.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rDrw4yIfEeGAoJGVi4aKyQ" label="+"/>
+    <attributes xmi:id="_rDsX8CIfEeGAoJGVi4aKyQ" name="cell">
+      <modelElement href="MyTrafficSim.uml#_qsh1ICIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rDsX8SIfEeGAoJGVi4aKyQ" name="Array">
+        <modelElement href="MyTrafficSim.uml#_qsjDQCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rDsX8iIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qsjqUCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rDlqQSIfEeGAoJGVi4aKyQ" name="Array">
+        <modelElement href="MyTrafficSim.uml#_qsjDQCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rDmRUCIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qsjqUCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rDsX8yIfEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_rDsX9CIfEeGAoJGVi4aKyQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_rDsX9SIfEeGAoJGVi4aKyQ" name="Cell">
+        <modelElement href="MyTrafficSim.uml#_qjRLcCIfEeGAoJGVi4aKyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDsX9iIfEeGAoJGVi4aKyQ" name="left">
+      <modelElement href="MyTrafficSim.uml#_qskRYCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rDsX9yIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rDsX-CIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rDsX-SIfEeGAoJGVi4aKyQ" name="Lane">
+        <modelElement href="MyTrafficSim.uml#_qjf08CIfEeGAoJGVi4aKyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDsX-iIfEeGAoJGVi4aKyQ" name="right">
+      <modelElement href="MyTrafficSim.uml#_qslfgCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rDsX-yIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rDsX_CIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rDsX_SIfEeGAoJGVi4aKyQ" name="Lane">
+        <modelElement href="MyTrafficSim.uml#_qjf08CIfEeGAoJGVi4aKyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rDsX_iIfEeGAoJGVi4aKyQ" name="speedLimit">
+      <modelElement href="MyTrafficSim.uml#_qsmGkCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rDsX_yIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rDsYACIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rDsYASIfEeGAoJGVi4aKyQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tcQrkCMAEeGAoJGVi4aKyQ" defaultValue="Logger.getLogger(&quot;LaneLogger&quot;)" name="logger" staticAttribute="true">
+      <modelElement href="MyTrafficSim.uml#_tcHhoCMAEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_tcQrkSMAEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_tcIIsSMAEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tcQrkiMAEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_tcQrkyMAEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tcQrlCMAEeGAoJGVi4aKyQ" name="Logger">
+        <modelElement href="MyTrafficSim.uml#_qp5X4CIfEeGAoJGVi4aKyQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rDsYAiIfEeGAoJGVi4aKyQ" name="Lane">
+      <modelElement href="MyTrafficSim.uml#_qjjfUCIfEeGAoJGVi4aKyQ"/>
+      <keywords xmi:id="_rDsYAyIfEeGAoJGVi4aKyQ" keyword="create"/>
+      <visibility xmi:id="_rDsYBCIfEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_rDsYBSIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qjktcCIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rDsYBiIfEeGAoJGVi4aKyQ" name="Lane">
+          <modelElement href="MyTrafficSim.uml#_qjf08CIfEeGAoJGVi4aKyQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rDsYByIfEeGAoJGVi4aKyQ" name="isCar">
+      <modelElement href="MyTrafficSim.uml#_qjl7kCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rDsYCCIfEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_rDsYCSIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qjmioCIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rDsYCiIfEeGAoJGVi4aKyQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rDsYCyIfEeGAoJGVi4aKyQ" name="n">
+        <modelElement href="MyTrafficSim.uml#_qjl7kSIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rDsYDCIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rDsYDSIfEeGAoJGVi4aKyQ" name="getCar">
+      <modelElement href="MyTrafficSim.uml#_qjnwwCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rDsYDiIfEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_rDsYDyIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qpl14CIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rDsYECIfEeGAoJGVi4aKyQ" name="Car">
+          <modelElement href="MyTrafficSim.uml#_qiKYMCIfEeGAoJGVi4aKyQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rDsYESIfEeGAoJGVi4aKyQ" name="n">
+        <modelElement href="MyTrafficSim.uml#_qjoX0CIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rDsYEiIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rDsYEyIfEeGAoJGVi4aKyQ" name="isSink">
+      <modelElement href="MyTrafficSim.uml#_qjrbICIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rDsYFCIfEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_rDsYFSIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qjsCMSIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rDsYFiIfEeGAoJGVi4aKyQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rDsYFyIfEeGAoJGVi4aKyQ" name="n">
+        <modelElement href="MyTrafficSim.uml#_qjsCMCIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rDsYGCIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rDsYGSIfEeGAoJGVi4aKyQ" name="getSink">
+      <modelElement href="MyTrafficSim.uml#_qjzW8CIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rDsYGiIfEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_rDsYGyIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qppgQCIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rDsYHCIfEeGAoJGVi4aKyQ" name="Sink">
+          <modelElement href="MyTrafficSim.uml#_qmnaYCIfEeGAoJGVi4aKyQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rDsYHSIfEeGAoJGVi4aKyQ" name="n">
+        <modelElement href="MyTrafficSim.uml#_qjzW8SIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rDsYHiIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rDsYHyIfEeGAoJGVi4aKyQ" name="isLight">
+      <modelElement href="MyTrafficSim.uml#_qj2aQCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rDsYICIfEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_rDsYISIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qj3oYCIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rDsYIiIfEeGAoJGVi4aKyQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rDsYIyIfEeGAoJGVi4aKyQ" name="n">
+        <modelElement href="MyTrafficSim.uml#_qj3BUCIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rDsYJCIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rDsYJSIfEeGAoJGVi4aKyQ" name="getLight">
+      <modelElement href="MyTrafficSim.uml#_qj42gCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rDsYJiIfEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_rDsYJyIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qptKoCIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rDsYKCIfEeGAoJGVi4aKyQ" name="Light">
+          <modelElement href="MyTrafficSim.uml#_qkUUUCIfEeGAoJGVi4aKyQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rDsYKSIfEeGAoJGVi4aKyQ" name="n">
+        <modelElement href="MyTrafficSim.uml#_qj42gSIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rDsYKiIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rDsYKyIfEeGAoJGVi4aKyQ" name="isEmpty">
+      <modelElement href="MyTrafficSim.uml#_qj9H8CIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rDsYLCIfEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_li52oCIkEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_liF-UCIkEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_li52oSIkEeGAoJGVi4aKyQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_li8S4CIkEeGAoJGVi4aKyQ" name="n">
+        <modelElement href="MyTrafficSim.uml#_liGlYCIkEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_li8S4SIkEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rDsYMSIfEeGAoJGVi4aKyQ" name="length">
+      <modelElement href="MyTrafficSim.uml#_qj-9ICIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rDsYMiIfEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_rDsYMyIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qj-9ISIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rDsYNCIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rDs_ACIfEeGAoJGVi4aKyQ" name="setCar">
+      <modelElement href="MyTrafficSim.uml#_qpnEACIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rDs_ASIfEeGAoJGVi4aKyQ" label="+"/>
+      <parameters xmi:id="_rDs_AiIfEeGAoJGVi4aKyQ" name="n">
+        <modelElement href="MyTrafficSim.uml#_qpnrECIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rDs_AyIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rDs_BCIfEeGAoJGVi4aKyQ" name="x">
+        <modelElement href="MyTrafficSim.uml#_qpnrESIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rDs_BSIfEeGAoJGVi4aKyQ" name="Car">
+          <modelElement href="MyTrafficSim.uml#_qiKYMCIfEeGAoJGVi4aKyQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rDs_BiIfEeGAoJGVi4aKyQ" name="setSink">
+      <modelElement href="MyTrafficSim.uml#_qpquYCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rDs_ByIfEeGAoJGVi4aKyQ" label="+"/>
+      <parameters xmi:id="_rDs_CCIfEeGAoJGVi4aKyQ" name="n">
+        <modelElement href="MyTrafficSim.uml#_qpquYSIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rDs_CSIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rDs_CiIfEeGAoJGVi4aKyQ" name="x">
+        <modelElement href="MyTrafficSim.uml#_qpquYiIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rDs_CyIfEeGAoJGVi4aKyQ" name="Sink">
+          <modelElement href="MyTrafficSim.uml#_qmnaYCIfEeGAoJGVi4aKyQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rDs_DCIfEeGAoJGVi4aKyQ" name="setLight">
+      <modelElement href="MyTrafficSim.uml#_qpuYwCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rDs_DSIfEeGAoJGVi4aKyQ" label="+"/>
+      <parameters xmi:id="_rDs_DiIfEeGAoJGVi4aKyQ" name="n">
+        <modelElement href="MyTrafficSim.uml#_qpuYwSIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rDs_DyIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rDs_ECIfEeGAoJGVi4aKyQ" name="x">
+        <modelElement href="MyTrafficSim.uml#_qpuYwiIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rDs_ESIfEeGAoJGVi4aKyQ" name="Light">
+          <modelElement href="MyTrafficSim.uml#_qkUUUCIfEeGAoJGVi4aKyQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5uuPsCIkEeGAoJGVi4aKyQ" name="isClear">
+      <modelElement href="MyTrafficSim.uml#_5uniACIkEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_5uuPsSIkEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_5uuPsiIkEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_5uoJESIkEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_5uuPsyIkEeGAoJGVi4aKyQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5uuPtCIkEeGAoJGVi4aKyQ" name="n">
+        <modelElement href="MyTrafficSim.uml#_5uoJECIkEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_5uuPtSIkEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_rES04CIfEeGAoJGVi4aKyQ" item="_rEmW9iIfEeGAoJGVi4aKyQ" sourceConnectionVisual="_rEisgCIfEeGAoJGVi4aKyQ" text="@param args">
+    <modelElement href="MyTrafficSim.uml#_qvaKACIfEeGAoJGVi4aKyQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rEwu8CIfEeGAoJGVi4aKyQ" name="Simulation" associationsOut="_rFGGICIfEeGAoJGVi4aKyQ">
+    <modelElement href="MyTrafficSim.uml#_qk7_YCIfEeGAoJGVi4aKyQ"/>
+    <visualProperties xmi:id="_rE5R0CIfEeGAoJGVi4aKyQ" position="152.0,1178.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_rEwu8SIfEeGAoJGVi4aKyQ" keyword="static"/>
+    <visibility xmi:id="_rExWACIfEeGAoJGVi4aKyQ" label="~"/>
+    <attributes xmi:id="_rExWASIfEeGAoJGVi4aKyQ" name="road">
+      <modelElement href="MyTrafficSim.uml#_qtZ-4CIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rExWAiIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qtbNACIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rFV9wCIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qtbNACIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rExWAyIfEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_rExWBCIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rExWBSIfEeGAoJGVi4aKyQ" name="Road">
+        <modelElement href="MyTrafficSim.uml#_qlcVsCIfEeGAoJGVi4aKyQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rExWBiIfEeGAoJGVi4aKyQ" name="Simulation">
+      <modelElement href="MyTrafficSim.uml#_qk90kCIfEeGAoJGVi4aKyQ"/>
+      <keywords xmi:id="_rExWByIfEeGAoJGVi4aKyQ" keyword="create"/>
+      <stereotypes xmi:id="_rExWCCIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qk_CsCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rExWCSIfEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_rExWCiIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qk_CsSIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rExWCyIfEeGAoJGVi4aKyQ" name="Simulation">
+          <modelElement href="MyTrafficSim.uml#_qk7_YCIfEeGAoJGVi4aKyQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rExWDCIfEeGAoJGVi4aKyQ" name="init">
+      <modelElement href="MyTrafficSim.uml#_qk_pwCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rExWDSIfEeGAoJGVi4aKyQ" label="+"/>
+    </operations>
+    <operations xmi:id="_rExWDiIfEeGAoJGVi4aKyQ" name="step">
+      <modelElement href="MyTrafficSim.uml#_qlEiQCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rExWDyIfEeGAoJGVi4aKyQ" label="+"/>
+    </operations>
+    <operations xmi:id="_rExWECIfEeGAoJGVi4aKyQ" name="step">
+      <modelElement href="MyTrafficSim.uml#_qlG-gCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rExWESIfEeGAoJGVi4aKyQ" label="+"/>
+      <parameters xmi:id="_rExWEiIfEeGAoJGVi4aKyQ" name="n">
+        <modelElement href="MyTrafficSim.uml#_qlG-gSIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rExWEyIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rExWFCIfEeGAoJGVi4aKyQ" name="run">
+      <modelElement href="MyTrafficSim.uml#_qlIMoCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rExWFSIfEeGAoJGVi4aKyQ" label="+"/>
+    </operations>
+    <operations xmi:id="_rExWFiIfEeGAoJGVi4aKyQ" name="rest">
+      <modelElement href="MyTrafficSim.uml#_qlIzsCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rExWFyIfEeGAoJGVi4aKyQ" label="-"/>
+    </operations>
+    <operations xmi:id="_Ec3JUCMVEeGAoJGVi4aKyQ" name="randomRange">
+      <modelElement href="MyTrafficSim.uml#_EcvNgCMVEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_Ec3JUSMVEeGAoJGVi4aKyQ" label="-"/>
+      <outParameters xmi:id="_Ec3JUiMVEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_EcwboCMVEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_Ec3JUyMVEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ec3JVCMVEeGAoJGVi4aKyQ" name="min">
+        <modelElement href="MyTrafficSim.uml#_Ecv0kCMVEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_Ec3JVSMVEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ec3JViMVEeGAoJGVi4aKyQ" name="max">
+        <modelElement href="MyTrafficSim.uml#_Ecv0kSMVEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_Ec3JVyMVEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rFXL4CIfEeGAoJGVi4aKyQ" name="Road" associationsIn="_rFGGICIfEeGAoJGVi4aKyQ" associationsOut="_rE7uECIfEeGAoJGVi4aKyQ _rF9BwCIfEeGAoJGVi4aKyQ">
+    <modelElement href="MyTrafficSim.uml#_qlcVsCIfEeGAoJGVi4aKyQ"/>
+    <visualProperties xmi:id="_rFbdUCIfEeGAoJGVi4aKyQ" position="84.0,638.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rFXL4SIfEeGAoJGVi4aKyQ" label="+"/>
+    <attributes xmi:id="_rFXL4iIfEeGAoJGVi4aKyQ" name="numLanes">
+      <modelElement href="MyTrafficSim.uml#_qtjv4CIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rFXL4yIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rFXL5CIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rFXL5SIfEeGAoJGVi4aKyQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rFXL5iIfEeGAoJGVi4aKyQ" name="speedLimit">
+      <modelElement href="MyTrafficSim.uml#_qtkW8CIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rFXL5yIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rFXL6CIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rFXL6SIfEeGAoJGVi4aKyQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rFXL6iIfEeGAoJGVi4aKyQ" name="lane">
+      <modelElement href="MyTrafficSim.uml#_qtmMICIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rFXL6yIfEeGAoJGVi4aKyQ" name="Array">
+        <modelElement href="MyTrafficSim.uml#_qtnaQCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rFXL7CIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qtrrsCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rFSTYCIfEeGAoJGVi4aKyQ" name="Array">
+        <modelElement href="MyTrafficSim.uml#_qtnaQCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rFS6cCIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qtrrsCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rFXL7SIfEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_rFXL7iIfEeGAoJGVi4aKyQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_rFXL7yIfEeGAoJGVi4aKyQ" name="Lane">
+        <modelElement href="MyTrafficSim.uml#_qjf08CIfEeGAoJGVi4aKyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rFXL8CIfEeGAoJGVi4aKyQ" name="end">
+      <modelElement href="MyTrafficSim.uml#_qttg4CIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rFXL8SIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qtuvACIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rHB_0CIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qtuvACIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rFXL8iIfEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_rFXL8yIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rFXL9CIfEeGAoJGVi4aKyQ" name="Sink">
+        <modelElement href="MyTrafficSim.uml#_qmnaYCIfEeGAoJGVi4aKyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rFXL9SIfEeGAoJGVi4aKyQ" defaultValue="new LinkedList&lt;Sink>()" name="exitList">
+      <modelElement href="MyTrafficSim.uml#_qtvWECIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rFXL9iIfEeGAoJGVi4aKyQ" name="Generics">
+        <modelElement href="MyTrafficSim.uml#_qtxLQCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rFXL9yIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qtzAcCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rFXL-CIfEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_rFXL-SIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rFXL-iIfEeGAoJGVi4aKyQ" name="LinkedList">
+        <modelElement href="MyTrafficSim.uml#_qrjkwCIfEeGAoJGVi4aKyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rFXL-yIfEeGAoJGVi4aKyQ" defaultValue="new LinkedList&lt;Light>()" name="lightList">
+      <modelElement href="MyTrafficSim.uml#_qt3R4CIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rFXL_CIfEeGAoJGVi4aKyQ" name="Generics">
+        <modelElement href="MyTrafficSim.uml#_qt8xcCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rFXL_SIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_quFUUCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rFXL_iIfEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_rFXL_yIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rFXMACIfEeGAoJGVi4aKyQ" name="LinkedList">
+        <modelElement href="MyTrafficSim.uml#_qrjkwCIfEeGAoJGVi4aKyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rFXMASIfEeGAoJGVi4aKyQ" defaultValue="new Random()" name="random">
+      <modelElement href="MyTrafficSim.uml#_quF7YCIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rFXMAiIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_quHJgCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rFXMAyIfEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_rFXMBCIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rFXMBSIfEeGAoJGVi4aKyQ" name="Random">
+        <modelElement href="MyTrafficSim.uml#_qp27oCIfEeGAoJGVi4aKyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rFXMBiIfEeGAoJGVi4aKyQ" defaultValue="Logger.getLogger(&quot;RoadLogger&quot;)" name="logger" staticAttribute="true">
+      <modelElement href="MyTrafficSim.uml#_quHJgSIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rFXMByIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_quJlwCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rFXy8CIfEeGAoJGVi4aKyQ" name="Annotations">
+        <modelElement href="MyTrafficSim.uml#_quKz4CIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rFXy8SIfEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_rFXy8iIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rFXy8yIfEeGAoJGVi4aKyQ" name="Logger">
+        <modelElement href="MyTrafficSim.uml#_qp5X4CIfEeGAoJGVi4aKyQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rFXy9CIfEeGAoJGVi4aKyQ" name="Road">
+      <modelElement href="MyTrafficSim.uml#_qlicUCIfEeGAoJGVi4aKyQ"/>
+      <keywords xmi:id="_rFXy9SIfEeGAoJGVi4aKyQ" keyword="create"/>
+      <visibility xmi:id="_rFXy9iIfEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_rFXy9yIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qljqciIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rFXy-CIfEeGAoJGVi4aKyQ" name="Road">
+          <modelElement href="MyTrafficSim.uml#_qlcVsCIfEeGAoJGVi4aKyQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rFXy-SIfEeGAoJGVi4aKyQ" name="numLanes">
+        <modelElement href="MyTrafficSim.uml#_qljDYCIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rFXy-iIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rFXy-yIfEeGAoJGVi4aKyQ" name="speedLimit">
+        <modelElement href="MyTrafficSim.uml#_qljDYSIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rFXy_CIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rFXy_SIfEeGAoJGVi4aKyQ" name="addCar">
+      <modelElement href="MyTrafficSim.uml#_qlk4kCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rFXy_iIfEeGAoJGVi4aKyQ" label="+"/>
+    </operations>
+    <operations xmi:id="_rFXy_yIfEeGAoJGVi4aKyQ" name="addCar">
+      <modelElement href="MyTrafficSim.uml#_qlqYICIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rFXzACIfEeGAoJGVi4aKyQ" label="+"/>
+      <parameters xmi:id="_rFXzASIfEeGAoJGVi4aKyQ" name="laneNumber">
+        <modelElement href="MyTrafficSim.uml#_qlqYISIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rFXzAiIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_2t6GACMUEeGAoJGVi4aKyQ" name="destination">
+        <modelElement href="MyTrafficSim.uml#_2tfPQCMUEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_2t6GASMUEeGAoJGVi4aKyQ" name="Sink">
+          <modelElement href="MyTrafficSim.uml#_qmnaYCIfEeGAoJGVi4aKyQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rFXzAyIfEeGAoJGVi4aKyQ" name="addParkedCar">
+      <modelElement href="MyTrafficSim.uml#_qlsNUCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rFXzBCIfEeGAoJGVi4aKyQ" label="+"/>
+      <parameters xmi:id="_rFXzBSIfEeGAoJGVi4aKyQ" name="laneNumber">
+        <modelElement href="MyTrafficSim.uml#_qls0YCIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rFXzBiIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rFXzByIfEeGAoJGVi4aKyQ" name="pos">
+        <modelElement href="MyTrafficSim.uml#_qluCgCIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rFXzCCIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rFXzCSIfEeGAoJGVi4aKyQ" name="addExit">
+      <modelElement href="MyTrafficSim.uml#_qlwewCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rFXzCiIfEeGAoJGVi4aKyQ" label="+"/>
+      <parameters xmi:id="_49pm8CMHEeGAoJGVi4aKyQ" name="l">
+        <modelElement href="MyTrafficSim.uml#_48wPECMHEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_49pm8SMHEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_49ufcCMHEeGAoJGVi4aKyQ" name="n">
+        <modelElement href="MyTrafficSim.uml#_48w2ICMHEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_49vGgCMHEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_490mECMHEeGAoJGVi4aKyQ" name="d">
+        <modelElement href="MyTrafficSim.uml#_48xdMCMHEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_490mESMHEeGAoJGVi4aKyQ" name="char">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rFXzESIfEeGAoJGVi4aKyQ" name="addLight">
+      <modelElement href="MyTrafficSim.uml#_qlziECIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rFXzEiIfEeGAoJGVi4aKyQ" label="+"/>
+      <parameters xmi:id="_rFXzEyIfEeGAoJGVi4aKyQ" name="l">
+        <modelElement href="MyTrafficSim.uml#_qlziESIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rFXzFCIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rFXzFSIfEeGAoJGVi4aKyQ" name="n">
+        <modelElement href="MyTrafficSim.uml#_ql0JICIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rFXzFiIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rFXzFyIfEeGAoJGVi4aKyQ" name="gt">
+        <modelElement href="MyTrafficSim.uml#_ql1XQCIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rFXzGCIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rFXzGSIfEeGAoJGVi4aKyQ" name="rt">
+        <modelElement href="MyTrafficSim.uml#_ql1XQSIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rFXzGiIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rFXzGyIfEeGAoJGVi4aKyQ" name="pushCars">
+      <modelElement href="MyTrafficSim.uml#_ql3McCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rFXzHCIfEeGAoJGVi4aKyQ" label="+"/>
+    </operations>
+    <operations xmi:id="_rFXzHSIfEeGAoJGVi4aKyQ" name="updateLights">
+      <modelElement href="MyTrafficSim.uml#_ql3zgCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rFXzHiIfEeGAoJGVi4aKyQ" label="+"/>
+    </operations>
+    <operations xmi:id="_rFXzHyIfEeGAoJGVi4aKyQ" name="print">
+      <modelElement href="MyTrafficSim.uml#_ql4akCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rFXzICIfEeGAoJGVi4aKyQ" label="+"/>
+    </operations>
+    <operations xmi:id="_rFXzISIfEeGAoJGVi4aKyQ" name="getLane">
+      <modelElement href="MyTrafficSim.uml#_ql6PwCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rFXzIiIfEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_rFXzIyIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qqX5ACIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rFXzJCIfEeGAoJGVi4aKyQ" name="Lane">
+          <modelElement href="MyTrafficSim.uml#_qjf08CIfEeGAoJGVi4aKyQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rFXzJSIfEeGAoJGVi4aKyQ" name="n">
+        <modelElement href="MyTrafficSim.uml#_ql6PwSIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rFXzJiIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_QdptkCMIEeGAoJGVi4aKyQ" name="getExits">
+      <modelElement href="MyTrafficSim.uml#_Qdf8kCMIEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_QdptkSMIEeGAoJGVi4aKyQ" name="Array">
+        <modelElement href="MyTrafficSim.uml#_QdgjoCMIEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_QdptkiMIEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_QdptkyMIEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_Qdf8kSMIEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_QdptlCMIEeGAoJGVi4aKyQ" name="Sink">
+          <modelElement href="MyTrafficSim.uml#_qmnaYCIfEeGAoJGVi4aKyQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3P4xsCMUEeGAoJGVi4aKyQ" name="addCar">
+      <modelElement href="MyTrafficSim.uml#_3PvAsCMUEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_3P4xsSMUEeGAoJGVi4aKyQ" label="+"/>
+      <parameters xmi:id="_3P4xsiMUEeGAoJGVi4aKyQ" name="destination">
+        <modelElement href="MyTrafficSim.uml#_3PvnwCMUEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_3P4xsyMUEeGAoJGVi4aKyQ" name="Sink">
+          <modelElement href="MyTrafficSim.uml#_qmnaYCIfEeGAoJGVi4aKyQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rHDN8CIfEeGAoJGVi4aKyQ" name="Sink" associationsIn="_rF8asCIfEeGAoJGVi4aKyQ _rF9BwCIfEeGAoJGVi4aKyQ" associationsOut="_rFdSgCIfEeGAoJGVi4aKyQ">
+    <modelElement href="MyTrafficSim.uml#_qmnaYCIfEeGAoJGVi4aKyQ"/>
+    <visualProperties xmi:id="_rHEcECIfEeGAoJGVi4aKyQ" position="655.0,752.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rHDN8SIfEeGAoJGVi4aKyQ" label="+"/>
+    <attributes xmi:id="_rHDN8iIfEeGAoJGVi4aKyQ" name="count">
+      <modelElement href="MyTrafficSim.uml#_quQ6gCIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rHDN8yIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_quSIoCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rHDN9CIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rHDN9SIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rHDN9iIfEeGAoJGVi4aKyQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rHDN9yIfEeGAoJGVi4aKyQ" name="icon">
+      <modelElement href="MyTrafficSim.uml#_quUk4CIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rHDN-CIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_quVL8CIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rHDN-SIfEeGAoJGVi4aKyQ" label="+"/>
+      <cardinality xmi:id="_rHDN-iIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rHDN-yIfEeGAoJGVi4aKyQ" name="char">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rHDN_CIfEeGAoJGVi4aKyQ" name="Sink">
+      <modelElement href="MyTrafficSim.uml#_qms58CIfEeGAoJGVi4aKyQ"/>
+      <keywords xmi:id="_rHDN_SIfEeGAoJGVi4aKyQ" keyword="create"/>
+      <visibility xmi:id="_rHDN_iIfEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_rHDN_yIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qmuIESIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rHDOACIfEeGAoJGVi4aKyQ" name="Sink">
+          <modelElement href="MyTrafficSim.uml#_qmnaYCIfEeGAoJGVi4aKyQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rHDOASIfEeGAoJGVi4aKyQ" name="dir">
+        <modelElement href="MyTrafficSim.uml#_qms58SIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rHDOAiIfEeGAoJGVi4aKyQ" name="char">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rHDOAyIfEeGAoJGVi4aKyQ" name="tick">
+      <modelElement href="MyTrafficSim.uml#_qmvWMCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rHDOBCIfEeGAoJGVi4aKyQ" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rEmW4CIfEeGAoJGVi4aKyQ" name="MyTrafficSim">
+    <modelElement href="MyTrafficSim.uml#_qkzcgCIfEeGAoJGVi4aKyQ"/>
+    <visualProperties xmi:id="_rEsdgCIfEeGAoJGVi4aKyQ" position="554.0,1086.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rEmW4SIfEeGAoJGVi4aKyQ" label="+"/>
+    <attributes xmi:id="_rEmW4iIfEeGAoJGVi4aKyQ" name="mode" staticAttribute="true">
+      <modelElement href="MyTrafficSim.uml#_qtPm0CIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rEmW4yIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qtQ08CIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rEmW5CIfEeGAoJGVi4aKyQ" label="~"/>
+      <cardinality xmi:id="_rEmW5SIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rEmW5iIfEeGAoJGVi4aKyQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rEmW5yIfEeGAoJGVi4aKyQ" defaultValue="true" name="run" staticAttribute="true">
+      <modelElement href="MyTrafficSim.uml#_qtRcACIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rEmW6CIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qtT4QCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rEmW6SIfEeGAoJGVi4aKyQ" label="~"/>
+      <cardinality xmi:id="_rEmW6iIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rEmW6yIfEeGAoJGVi4aKyQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rEmW7CIfEeGAoJGVi4aKyQ" defaultValue="Logger.getLogger(&quot;SimulationLogger&quot;)" name="logger" staticAttribute="true">
+      <modelElement href="MyTrafficSim.uml#_qtUfUCIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rEmW7SIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qtWUgCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aGBZECIjEeGAoJGVi4aKyQ" name="Annotations">
+        <modelElement href="MyTrafficSim.uml#_aFo-kCIjEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rEmW7iIfEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_rEmW7yIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rEmW8CIfEeGAoJGVi4aKyQ" name="Logger">
+        <modelElement href="MyTrafficSim.uml#_qp5X4CIfEeGAoJGVi4aKyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rEmW8SIfEeGAoJGVi4aKyQ" defaultValue="new Random()" name="random" staticAttribute="true">
+      <modelElement href="MyTrafficSim.uml#_qtWUgSIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rEmW8iIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qtZX0CIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rEmW8yIfEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_rEmW9CIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rEmW9SIfEeGAoJGVi4aKyQ" name="Random">
+        <modelElement href="MyTrafficSim.uml#_qp27oCIfEeGAoJGVi4aKyQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rEmW9iIfEeGAoJGVi4aKyQ" comments="_rES04CIfEeGAoJGVi4aKyQ" targetConnectionVisual="_rEisgCIfEeGAoJGVi4aKyQ" name="main" staticOperation="true">
+      <modelElement href="MyTrafficSim.uml#_qlL3ACIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rEmW9yIfEeGAoJGVi4aKyQ" label="+"/>
+      <parameters xmi:id="_rEmW-CIfEeGAoJGVi4aKyQ" name="args">
+        <modelElement href="MyTrafficSim.uml#_qlMeECIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rEmW-SIfEeGAoJGVi4aKyQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rEN8YiIfEeGAoJGVi4aKyQ" name="Light" associationsIn="_rDx3gCIfEeGAoJGVi4aKyQ">
+    <modelElement href="MyTrafficSim.uml#_qkUUUCIfEeGAoJGVi4aKyQ"/>
+    <visualProperties xmi:id="_rEQYoCIfEeGAoJGVi4aKyQ" position="1073.0,949.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rEN8YyIfEeGAoJGVi4aKyQ" label="+"/>
+    <attributes xmi:id="_rEN8ZCIfEeGAoJGVi4aKyQ" name="state">
+      <modelElement href="MyTrafficSim.uml#_qs1-MCIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rEN8ZSIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qs5BgCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rEN8ZiIfEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_rEN8ZyIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rEN8aCIfEeGAoJGVi4aKyQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rEN8aSIfEeGAoJGVi4aKyQ" defaultValue="0" name="timer">
+      <modelElement href="MyTrafficSim.uml#_qs5okCIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rEN8aiIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qs7dwCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rEN8ayIfEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_rEN8bCIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rEN8bSIfEeGAoJGVi4aKyQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rEN8biIfEeGAoJGVi4aKyQ" name="redTime">
+      <modelElement href="MyTrafficSim.uml#_qs8r4CIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rEN8byIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qs_IICIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rEN8cCIfEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_rEN8cSIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rEN8ciIfEeGAoJGVi4aKyQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rEN8cyIfEeGAoJGVi4aKyQ" name="greenTime">
+      <modelElement href="MyTrafficSim.uml#_qs_vMCIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rEN8dCIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qtBkYCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rEN8dSIfEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_rEN8diIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rEN8dyIfEeGAoJGVi4aKyQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rEN8eCIfEeGAoJGVi4aKyQ" defaultValue="new Random()" name="random">
+      <modelElement href="MyTrafficSim.uml#_qtCLcCIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rEN8eSIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qtGc4CIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rEN8eiIfEeGAoJGVi4aKyQ" label="~"/>
+      <cardinality xmi:id="_rEN8eyIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rEN8fCIfEeGAoJGVi4aKyQ" name="Random">
+        <modelElement href="MyTrafficSim.uml#_qp27oCIfEeGAoJGVi4aKyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rEN8fSIfEeGAoJGVi4aKyQ" defaultValue="Logger.getLogger(&quot;LightLogger&quot;)" name="logger" staticAttribute="true">
+      <modelElement href="MyTrafficSim.uml#_qtHD8CIfEeGAoJGVi4aKyQ"/>
+      <stereotypes xmi:id="_rEOjcCIfEeGAoJGVi4aKyQ" name="LegacyStyledElement">
+        <modelElement href="MyTrafficSim.uml#_qtISECIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rEOjcSIfEeGAoJGVi4aKyQ" name="Annotations">
+        <modelElement href="MyTrafficSim.uml#_qtJgMCIfEeGAoJGVi4aKyQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rEOjciIfEeGAoJGVi4aKyQ" label="-"/>
+      <cardinality xmi:id="_rEOjcyIfEeGAoJGVi4aKyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rEOjdCIfEeGAoJGVi4aKyQ" name="Logger">
+        <modelElement href="MyTrafficSim.uml#_qp5X4CIfEeGAoJGVi4aKyQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rEOjdSIfEeGAoJGVi4aKyQ" name="Light">
+      <modelElement href="MyTrafficSim.uml#_qkf6gCIfEeGAoJGVi4aKyQ"/>
+      <keywords xmi:id="_rEOjdiIfEeGAoJGVi4aKyQ" keyword="create"/>
+      <visibility xmi:id="_rEOjdyIfEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_rEOjeCIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qkhIoSIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rEOjeSIfEeGAoJGVi4aKyQ" name="Light">
+          <modelElement href="MyTrafficSim.uml#_qkUUUCIfEeGAoJGVi4aKyQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rEOjeiIfEeGAoJGVi4aKyQ" name="redTime">
+        <modelElement href="MyTrafficSim.uml#_qkf6gSIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rEOjeyIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rEOjfCIfEeGAoJGVi4aKyQ" name="greenTime">
+        <modelElement href="MyTrafficSim.uml#_qkghkCIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rEOjfSIfEeGAoJGVi4aKyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rEOjfiIfEeGAoJGVi4aKyQ" name="isGreen">
+      <modelElement href="MyTrafficSim.uml#_qkhvsCIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rEOjfyIfEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_rEOjgCIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qkiWwCIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rEOjgSIfEeGAoJGVi4aKyQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rEOjgiIfEeGAoJGVi4aKyQ" name="isRed">
+      <modelElement href="MyTrafficSim.uml#_qki90CIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rEOjgyIfEeGAoJGVi4aKyQ" label="+"/>
+      <outParameters xmi:id="_rEOjhCIfEeGAoJGVi4aKyQ">
+        <modelElement href="MyTrafficSim.uml#_qkjk4CIfEeGAoJGVi4aKyQ"/>
+        <type xmi:id="_rEOjhSIfEeGAoJGVi4aKyQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rEOjhiIfEeGAoJGVi4aKyQ" name="update">
+      <modelElement href="MyTrafficSim.uml#_qkkL8CIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rEOjhyIfEeGAoJGVi4aKyQ" label="+"/>
+    </operations>
+    <operations xmi:id="_rEOjiCIfEeGAoJGVi4aKyQ" name="change">
+      <modelElement href="MyTrafficSim.uml#_qkmBICIfEeGAoJGVi4aKyQ"/>
+      <visibility xmi:id="_rEOjiSIfEeGAoJGVi4aKyQ" label="-"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
